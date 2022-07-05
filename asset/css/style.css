@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+.red{
+    color: red;
+}
+#main{
+    margin: 15px;
+}
+.col{
+    width: 50%;  
+}
+
+
+#header{
+    height: 48px;
+    background-color: #333;
+    display: block;
+}
+.header-1 li a{
+    display: block;
+    line-height: 48px;
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+.header-1 li {
+   display: inline-block;
+   margin-right: 23px;
+   text-align: center;
+}
+#slider{
+    background-position: center center;
+    background-size: cover;
+    margin: 15px 0;
+    padding-top: 50%;
+    background: url('/asset/css/img/Ảnh_chụp_màn_hình_2022-06-25_103734.png') top center / cover no-repeat;
+}
+.content__item{
+    width: 100%;
+    padding:  10px 0 0;
+    
+}
+
+.content__right{
+    float: right ;
+    width: 50%;
+}
+.content__img{
+    margin-top: 20px;
+}
+.content__item2,
+.content__item21{
+    padding-right: 10px;
+    float: left;
+}
+
+
